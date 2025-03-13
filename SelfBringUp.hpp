@@ -3,6 +3,7 @@
 
     #include "stdio.h"
     #include "iostream"
+    #include "string"
 
     using namespace std;
 
@@ -11,6 +12,10 @@
         public:
             SelfBringUp();
             SelfBringUp(void*);
+            template<typename T> T Getter(string);
+
+        private:
+            int* pnum = new int();
     };
 
 #endif
