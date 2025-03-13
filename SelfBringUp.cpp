@@ -7,12 +7,11 @@ SelfBringUp::SelfBringUp()
 
 SelfBringUp::SelfBringUp(void* data)
 {
-    *pnum = 10;
     cout << *(int*)data << endl;
 }
 
-template<typename T>
-T Getter(string name)
-{
-    if(string::compare(name, )
-}
+// template<typename T>
+// T SelfBringUp::Getter(void)
+// {
+//     return coef;
+// }
